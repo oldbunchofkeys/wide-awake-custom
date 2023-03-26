@@ -1,0 +1,338 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="tab-container">
+      <div id="monday-container">
+        <div id="monday" class="day-tab" >
+          Monday
+        </div>
+      </div>
+      <div id="tuesday-container">
+        <div id="tuesday" class="day-tab">
+          Tuesday
+        </div>
+      </div>
+      <div id="wednesday-container">
+        <div id="wednesday" class="day-tab">
+          Wednesday
+        </div>
+      </div>
+      <div id="thursday-container">
+        <div id="thursday" class="day-tab">
+          Thursday
+        </div>
+      </div>
+      <div id="friday-container">
+        <div id="friday" class="day-tab">
+          Friday
+        </div>
+      </div>
+      <div id="saturday-container">
+        <div id="saturday" class="day-tab">
+          Saturday
+        </div>
+      </div>
+      <div id="sunday-container">
+        <div id="sunday" class="day-tab">
+          Sunday
+        </div>
+      </div>
+    </div>
+    <div class="content-container">
+      <div id="monday-content" class="day-content" style="display:none;">
+        <p class="delivery-type">CRUST FUND</p> 
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Farm Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>No Retail Deliveries</li>
+        </ul>
+      </div>
+      <div id="tuesday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Buffalo Street Books, Dewitt Mall, Ithaca NY, 3:00 - 6:00pm.</li>
+          <li>Marilla's Mindful Supplies, Geneva, NY - Bi-weekly 4:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>This Summer: Sweetland Farm, June - November</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <p class="delivery-details">No Market Deliveries</p>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Greenstar @ Dewitt Mall, Ithaca, NY</li>
+          <li>Greenstar Collegetown, Ithaca, NY</li>
+          <li>Anabel's Grocery, Cornell Campus, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+          <li>P&C Fresh at East Hill Plaza, Ithaca, NY</li>
+        </ul>
+      </div>
+      <div id="wednesday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Main Street Market, Trumansburg NY, 12:00 - 6:00pm.</li>
+          <li>Seneca Sunrise Coffee, Watkins Glen, NY, 4:00 - 6:00pm</li>
+          <li>ReUse Megacenter @ Triphammer Mall, Ithaca, NY, 3:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Stick and Stone Full Plate Farm Collective Summer CSA</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Trumansburg Farmer's Market, Trumansburg, 4:00 - 7:00pm</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+        </ul>
+      </div>
+      <div id="thursday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>This Summer: South Hill Cider: 550 Sandbank Rd, Ithaca, 3:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Full Plate Farm Collective: Press Bay Downtown Pickup</li>
+          <li>Plow Break Farm: Summer Share, Ithaca</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Mimi's Attic, Ithaca, NY</li>
+          <li>Anabel's Grocery, Cornell Campus, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+        </ul>
+      </div>
+      <div id="friday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Dewitt Mall (near Ithacamade), Ithaca NY, 3:00-6:00pm.</li>
+          <li>Main Street Market, Trumansburg NY, 1:00-6:00pm.</li>
+          <li>Marilla's Mindful Supplies, Geneva, 4:00-7:00pm (Bi-weekly)</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Sweetland Farm</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Greenstar @ Dewitt Mall, Ithaca, NY</li>
+          <li>Greenstar Collegetown, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+          <li>P&C Fresh at East Hill Plaza, Ithaca, NY</li>
+        </ul>
+      </div>
+      <div id="saturday-content" class="day-content" style="display: none;">
+        saturday is for the bois
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Ithaca Farmer's Market, Booth #22</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Main Street Market, Trumansburg</li>
+        </ul>
+      </div>
+      <div id="sunday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Ithaca Farmer's Market, Booth #22</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>No Retail Deliveries</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <style>
+    .container {
+      padding: 30px;
+      font-family: 'poppins', sans-serif;
+    }
+    .tab-container, .content-container {
+      display: flex;
+    }
+    .tab-container {
+      justify-content: center;
+    }
+    .content-container {
+      padding: 40px 180px;
+    }
+    .day-tab {
+      padding: 10px;
+    }
+    .delivery-type {
+      font-weight: bold;
+    }
+    /* mobile styles */
+    @media (max-width: 767px) {
+      .tab-container {
+        padding: 20px;
+        flex-direction: column;
+      }
+      .day-tab {
+        padding: 28px;
+      }
+      .content-container {
+        padding: 10px 30px;
+      }
+    }
+  </style>
+  <script>
+    //variables
+    const dayOfWeek = new Date().getDay();
+    const mondayTab = document.querySelector('#monday');
+    const tuesdayTab = document.querySelector('#tuesday');
+    const wednesdayTab = document.querySelector('#wednesday');
+    const thursdayTab = document.querySelector('#thursday');
+    const fridayTab = document.querySelector('#friday');
+    const saturdayTab = document.querySelector('#saturday');
+    const sundayTab = document.querySelector('#sunday');
+    const mondayContainer = document.querySelector('#monday-container');
+    const tuesdayContainer = document.querySelector('#tuesday-container');
+    const wednesdayContainer = document.querySelector('#wednesday-container');
+    const thursdayContainer = document.querySelector('#thursday-container');
+    const fridayContainer = document.querySelector('#friday-container');
+    const saturdayContainer = document.querySelector('#saturday-container');
+    const sundayContainer = document.querySelector('#sunday-container');
+    const mondayContent = document.querySelector('#monday-content');
+    const tuesdayContent = document.querySelector('#tuesday-content');
+    const wednesdayContent = document.querySelector('#wednesday-content');
+    const thursdayContent = document.querySelector('#thursday-content');
+    const fridayContent = document.querySelector('#friday-content');
+    const saturdayContent = document.querySelector('#saturday-content');
+    const sundayContent = document.querySelector('#sunday-content');
+    const dayContents = [mondayContent, tuesdayContent, wednesdayContent, thursdayContent, fridayContent, saturdayContent, sundayContent];
+    const dayTabs = [mondayTab, tuesdayTab, wednesdayTab, thursdayTab, fridayTab, saturdayTab, sundayTab];
+
+    // event listeners
+    mondayTab.addEventListener('click', styleTabsAndContent);
+    tuesdayTab.addEventListener('click', styleTabsAndContent);
+    wednesdayTab.addEventListener('click', styleTabsAndContent);
+    thursdayTab.addEventListener('click', styleTabsAndContent);
+    fridayTab.addEventListener('click', styleTabsAndContent);
+    saturdayTab.addEventListener('click', styleTabsAndContent);
+    sundayTab.addEventListener('click', styleTabsAndContent);
+
+    //functions
+    (function defaultActiveTabByDay () {
+      if (dayOfWeek === 0) {
+        sundayTab.style.backgroundColor = 'red';
+        sundayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 1) {
+        mondayTab.style.backgroundColor = 'red';
+        mondayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 2) {
+        tuesdayTab.style.backgroundColor = 'red';
+        tuesdayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 3) {
+        wednesdayTab.style.backgroundColor = 'red';
+        wednesdayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 4) {
+        thursdayTab.style.backgroundColor = 'red';
+        thursdayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 5) {
+        fridayTab.style.backgroundColor = 'red';
+        fridayContent.style.display = 'block'; 
+      }
+      if (dayOfWeek === 6) {
+        saturdayTab.style.backgroundColor = 'red';
+        saturdayContent.style.display = 'block'; 
+      }
+    })();
+    function styleTabsAndContent (e) {
+      resetTabBgColor();
+      dayContents.forEach(day => {
+        if (day.id.includes(e.currentTarget.id)) {
+          day.style.display = 'block';
+          e.currentTarget.style.backgroundColor = 'red';
+        } else {
+          day.style.display = 'none';
+        }
+      }); 
+    }
+    function resetTabBgColor () {
+      dayTabs.forEach(tab => {
+        tab.style.backgroundColor = 'white';
+      });
+    }
+    function updateTabTextByWindowSize() {
+      if (window.innerWidth <= 767) {
+        mondayContainer.append(mondayContent);
+        tuesdayContainer.append(tuesdayContent);
+        wednesdayContainer.append(wednesdayContent);
+        thursdayContainer.append(thursdayContent);
+        fridayContainer.append(fridayContent);
+        saturdayContainer.append(saturdayContent);
+        sundayContainer.append(sundayContent);
+      }
+      if (window.innerWidth > 767) {
+        mondayTab.textContent = 'Monday';
+        tuesdayTab.textContent = 'Tuesday';
+        wednesdayTab.textContent = 'Wednesday';
+        thursdayTab.textContent = 'Thursday';
+        fridayTab.textContent = 'Friday';
+        saturdayTab.textContent = 'Saturday';
+        sundayTab.textContent = 'Sunday';
+      }
+    }
+    updateTabTextByWindowSize();
+    window.addEventListener("resize", updateTabTextByWindowSize);
+  </script>
+</body>
+</html>
