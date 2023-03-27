@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="tab-container">
+      <div id="monday-container">
+        <div id="monday" class="day-tab" >
+          Monday
+        </div>
+      </div>
+      <div id="tuesday-container">
+        <div id="tuesday" class="day-tab">
+          Tuesday
+        </div>
+      </div>
+      <div id="wednesday-container">
+        <div id="wednesday" class="day-tab">
+          Wednesday
+        </div>
+      </div>
+      <div id="thursday-container">
+        <div id="thursday" class="day-tab">
+          Thursday
+        </div>
+      </div>
+      <div id="friday-container">
+        <div id="friday" class="day-tab">
+          Friday
+        </div>
+      </div>
+      <div id="saturday-container">
+        <div id="saturday" class="day-tab">
+          Saturday
+        </div>
+      </div>
+      <div id="sunday-container">
+        <div id="sunday" class="day-tab">
+          Sunday
+        </div>
+      </div>
+    </div>
+    <div id="content-container" class="content-container">
+      <div id="monday-content" class="day-content" style="display:none;">
+        <p class="delivery-type">CRUST FUND</p> 
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Farm Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>No Retail Deliveries</li>
+        </ul>
+      </div>
+      <div id="tuesday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Buffalo Street Books, Dewitt Mall, Ithaca NY, 3:00 - 6:00pm.</li>
+          <li>Marilla's Mindful Supplies, Geneva, NY - Bi-weekly 4:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>This Summer: Sweetland Farm, June - November</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <p class="delivery-details">No Market Deliveries</p>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Greenstar @ Dewitt Mall, Ithaca, NY</li>
+          <li>Greenstar Collegetown, Ithaca, NY</li>
+          <li>Anabel's Grocery, Cornell Campus, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+          <li>P&C Fresh at East Hill Plaza, Ithaca, NY</li>
+        </ul>
+      </div>
+      <div id="wednesday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Main Street Market, Trumansburg NY, 12:00 - 6:00pm.</li>
+          <li>Seneca Sunrise Coffee, Watkins Glen, NY, 4:00 - 6:00pm</li>
+          <li>ReUse Megacenter @ Triphammer Mall, Ithaca, NY, 3:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Stick and Stone Full Plate Farm Collective Summer CSA</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Trumansburg Farmer's Market, Trumansburg, 4:00 - 7:00pm</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+        </ul>
+      </div>
+      <div id="thursday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>This Summer: South Hill Cider: 550 Sandbank Rd, Ithaca, 3:00 - 6:00pm</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Full Plate Farm Collective: Press Bay Downtown Pickup</li>
+          <li>Plow Break Farm: Summer Share, Ithaca</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Mimi's Attic, Ithaca, NY</li>
+          <li>Anabel's Grocery, Cornell Campus, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+        </ul>
+      </div>
+      <div id="friday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>Dewitt Mall (near Ithacamade), Ithaca NY, 3:00-6:00pm.</li>
+          <li>Main Street Market, Trumansburg NY, 1:00-6:00pm.</li>
+          <li>Marilla's Mindful Supplies, Geneva, 4:00-7:00pm (Bi-weekly)</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>Sweetland Farm</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>No Market Deliveries</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Greenstar Co-op, Ithaca, NY</li>
+          <li>Greenstar @ Dewitt Mall, Ithaca, NY</li>
+          <li>Greenstar Collegetown, Ithaca, NY</li>
+          <li>Main Street Market, Trumansburg, NY</li>
+          <li>P&C Fresh at East Hill Plaza, Ithaca, NY</li>
+        </ul>
+      </div>
+      <div id="saturday-content" class="day-content" style="display: none;">
+        saturday is for the bois
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Ithaca Farmer's Market, Booth #22</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>Main Street Market, Trumansburg</li>
+        </ul>
+      </div>
+      <div id="sunday-content" class="day-content" style="display: none;">
+        <p class="delivery-type">CRUST FUND</p>
+        <ul class="delivery-details">
+          <li>No Crust Fund Distributions</li>
+        </ul>
+        <p class="delivery-type">CSA Farm Pickups</p>
+        <ul class="delivery-details">
+          <li>No CSA Pickups</li>
+        </ul>
+        <p class="delivery-type">MARKETS</p> 
+        <ul class="delivery-details">
+          <li>Ithaca Farmer's Market, Booth #22</li>
+        </ul>
+        <p class="delivery-type">RETAIL</p>
+        <ul class="delivery-details">
+          <li>No Retail Deliveries</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <style>
+    .container {
+      padding: 30px;
+      font-family: 'poppins', sans-serif;
+    }
+    .tab-container, .content-container {
+      display: flex;
+    }
+    .tab-container {
+      justify-content: center;
+    }
+    .content-container {
+      padding: 40px 180px;
+    }
+    .day-tab {
+      padding: 10px;
+    }
+    .delivery-type {
+      font-weight: bold;
+    }
+    /* mobile styles */
+    @media (max-width: 767px) {
+      .tab-container {
+        padding: 20px;
+        flex-direction: column;
+      }
+      .day-tab {
+        padding: 28px;
+      }
+      .content-container {
+        padding: 10px 30px;
+      }
+    }
+  </style>
+  <script>
+    //variables
+    const dayOfWeek = new Date().getDay();
+    const mondayTab = document.querySelector('#monday');
+    const tuesdayTab = document.querySelector('#tuesday');
+    const wednesdayTab = document.querySelector('#wednesday');
+    const thursdayTab = document.querySelector('#thursday');
+    const fridayTab = document.querySelector('#friday');
+    const saturdayTab = document.querySelector('#saturday');
+    const sundayTab = document.querySelector('#sunday');
+    const contentContainer = document.querySelector('#content-container')
+    const mondayContainer = document.querySelector('#monday-container');
+    const tuesdayContainer = document.querySelector('#tuesday-container');
+    const wednesdayContainer = document.querySelector('#wednesday-container');
+    const thursdayContainer = document.querySelector('#thursday-container');
+    const fridayContainer = document.querySelector('#friday-container');
+    const saturdayContainer = document.querySelector('#saturday-container');
+    const sundayContainer = document.querySelector('#sunday-container');
+    const mondayContent = document.querySelector('#monday-content');
+    const tuesdayContent = document.querySelector('#tuesday-content');
+    const wednesdayContent = document.querySelector('#wednesday-content');
+    const thursdayContent = document.querySelector('#thursday-content');
+    const fridayContent = document.querySelector('#friday-content');
+    const saturdayContent = document.querySelector('#saturday-content');
+    const sundayContent = document.querySelector('#sunday-content');
+    const dayContents = [mondayContent, tuesdayContent, wednesdayContent, thursdayContent, fridayContent, saturdayContent, sundayContent];
+    const dayTabs = [mondayTab, tuesdayTab, wednesdayTab, thursdayTab, fridayTab, saturdayTab, sundayTab];
+
+    // state class definitions
+    class GlobalState {
+      constructor(isAccordion, isTabs) {
+        this.isAccordion = isAccordion;
+        this.isTabs = isTabs;
+      }
+      emit() {
+        const e = new Event("emitGlobal");
+        document.dispatchEvent(e);
+      }
+      boundAccordionOrTabs = this.initialAccordionOrTabs.bind(this);
+      initialAccordionOrTabs() {
+        if (window.innerWidth <= 767) {
+          this.isAccordion = true;
+          this.isTabs = false;
+        } else {
+          this.isAccordion = false;
+          this.isTabs = true;
+        }
+        this.emit();
+      }
+    }
+    class DayState {
+      constructor(name, isAccordionOpen) {
+        this.name = name;
+        this.isAccordionOpen = isAccordionOpen;
+      }
+      emit() {
+        const e = new Event("emitDay");
+        document.dispatchEvent(e);
+      }
+      boundIsAccordionOpen = this.isOpenAccordion.bind(this);
+      isOpenAccordion(e) {
+        resetAccordionState();
+        this.isAccordionOpen = true;
+        this.emit();
+      }
+    }
+    class TodayState { 
+      constructor(dayIndex, isToday) {
+        this.dayIndex = dayIndex;
+        this.isToday = isToday;
+      }
+      dayOfWeekIsToday() {
+        if (this.dayIndex === dayOfWeek) {
+          this.isToday = true;
+        }
+      }
+    }
+    //class instantiations
+    const globalState = new GlobalState (false, false);
+    const sundayState = new DayState('sunday', false);
+    const mondayState = new DayState('monday', false);
+    const tuesdayState = new DayState('tuesday', false);
+    const wednesdayState = new DayState('wednesday', false);
+    const thursdayState = new DayState('thursday', false);
+    const fridayState = new DayState('friday', false);
+    const saturdayState = new DayState('saturday', false);
+    const sundayTodayState = new TodayState(0, false);
+    const mondayTodayState = new TodayState(1, false);
+    const tuesdayTodayState = new TodayState(2, false);
+    const wednesdayTodayState = new TodayState(3, false);
+    const thursdayTodayState = new TodayState(4, false);
+    const fridayTodayState = new TodayState(5, false);
+    const saturdayTodayState = new TodayState(6, false);
+
+    const dayStates = [sundayState, mondayState, tuesdayState, wednesdayState, thursdayState, fridayState, saturdayState]
+    
+
+    //function definitions with a global 'this'
+    // function dynamicAccordionOrTabs() {
+    //   if (window.innerWidth <= 767) {
+    //       globalState.isAccordion = true;
+    //       globalState.isTabs = false;
+    //     } else {
+    //       globalState.isAccordion = false;
+    //       globalState.isTabs = true;
+    //     }
+    // }
+    //the 'boundAccordionOrTabs makes this above function no longer needed
+
+    //method calls
+    globalState.initialAccordionOrTabs();
+    sundayTodayState.dayOfWeekIsToday();
+    mondayTodayState.dayOfWeekIsToday();
+    tuesdayTodayState.dayOfWeekIsToday();
+    wednesdayTodayState.dayOfWeekIsToday();
+    thursdayTodayState.dayOfWeekIsToday();
+    fridayTodayState.dayOfWeekIsToday();
+    saturdayTodayState.dayOfWeekIsToday();
+
+    //function definitions
+    function resetAccordionState() {
+      dayStates.forEach(state => {
+        state.isAccordionOpen = false;
+      });
+    }
+    function appendAccordionContent() {
+      mondayContainer.append(mondayContent);
+      tuesdayContainer.append(tuesdayContent);
+      wednesdayContainer.append(wednesdayContent);
+      thursdayContainer.append(thursdayContent);
+      fridayContainer.append(fridayContent);
+      saturdayContainer.append(saturdayContent);
+      sundayContainer.append(sundayContent);
+    }
+    function appendTabsContent() {
+      contentContainer.append(mondayContent);
+      contentContainer.append(tuesdayContent);
+      contentContainer.append(wednesdayContent);
+      contentContainer.append(thursdayContent);
+      contentContainer.append(fridayContent);
+      contentContainer.append(saturdayContent);
+      contentContainer.append(sundayContent);
+    }
+    function styleDay(dayTabParam, dayContentParam, dayContainerParam) {
+      resetDayStyles();
+      dayTabParam.style.backgroundColor = 'red';
+      dayContentParam.style.display = 'block';
+    }
+    (function setDefaultDayStateAndStyles() {
+      if (globalState.isAccordion) {
+        appendAccordionContent();
+      } else {
+        appendTabsContent();
+      }
+      if (mondayTodayState.isToday) {
+        resetAccordionState();
+        mondayState.isAccordionOpen = true;
+        styleDay(mondayTab, mondayContent, mondayContainer);
+      } else if (tuesdayTodayState.isToday) {
+        resetAccordionState();
+        tuesdayState.isAccordionOpen = true;
+        styleDay(tuesdayTab, tuesdayContent, tuesdayContainer);
+      } else if (wednesdayTodayState.isToday) {
+        resetAccordionState();
+        wednesdayState.isAccordionOpen = true;
+        styleDay(wednesdayTab, wednesdayContent, wednesdayContainer);
+      } else if (thursdayTodayState.isToday) {
+        resetAccordionState();
+        thursdayState.isAccordionOpen = true;
+        styleDay(thursdayTab, thursdayContent, thursdayContainer);
+      } else if (fridayTodayState.isToday) {
+        resetAccordionState();
+        fridayState.isAccordionOpen = true;
+        styleDay(thursdayTab, thursdayContent, thursdayContainer);
+      } else if (saturdayTodayState.isToday) {
+        resetAccordionState();
+        saturdayState.isAccordionOpen = true;
+        styleDay(fridayTab, fridayContent, fridayContainer);
+      } else {
+        resetAccordionState();
+        sundayState.isAccordionOpen = true;
+        styleDay(sundayTab, sundayContent, sundayContainer);
+      }
+    })();
+    function resetDayStyles() {
+      dayTabs.forEach(dayTab => {
+        dayTab.style.backgroundColor = 'white';
+      });
+      dayContents.forEach(dayContent => {
+        dayContent.style.display = 'none';
+      })
+    }
+    //event listeners
+    window.addEventListener("resize", globalState.boundAccordionOrTabs);
+    mondayTab.addEventListener('click', mondayState.boundIsAccordionOpen);
+    tuesdayTab.addEventListener('click', tuesdayState.boundIsAccordionOpen);
+    wednesdayTab.addEventListener('click', wednesdayState.boundIsAccordionOpen);
+    thursdayTab.addEventListener('click', thursdayState.boundIsAccordionOpen);
+    fridayTab.addEventListener('click', fridayState.boundIsAccordionOpen);
+    saturdayTab.addEventListener('click', saturdayState.boundIsAccordionOpen);
+    sundayTab.addEventListener('click', sundayState.boundIsAccordionOpen);
+    document.addEventListener("emitGlobal", () => {
+      if (globalState.isAccordion) {
+        dayTabs.forEach(dayTab => {
+          appendAccordionContent();
+        });
+      } else {
+        dayTabs.forEach(dayTab => {
+          appendTabsContent();
+        });
+      }
+    });
+    document.addEventListener("emitDay", () => {
+      if (mondayState.isAccordionOpen) {
+        styleDay(mondayTab, mondayContent, mondayContainer);
+      } else if (tuesdayState.isAccordionOpen) {
+        styleDay(tuesdayTab, tuesdayContent, tuesdayContainer);
+      } else if (wednesdayState.isAccordionOpen) {
+        styleDay(wednesdayTab, wednesdayContent, wednesdayContainer);
+      } else if (thursdayState.isAccordionOpen) {
+        styleDay(thursdayTab, thursdayContent, thursdayContainer);
+      } else if (fridayState.isAccordionOpen) {
+        styleDay(fridayTab, fridayContent, fridayContainer);
+      } else if (saturdayState.isAccordionOpen) {
+        styleDay(saturdayTab, saturdayContent, saturdayContainer);
+      } else {
+        styleDay(sundayTab, sundayContent, sundayContainer);
+      }
+    });
+  </script>
+</body>
+</html>
